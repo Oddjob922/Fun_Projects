@@ -1,0 +1,15 @@
+
+public class Calc {
+	
+	public static int Add() {
+		int sum = num1 + num2;
+		return 0;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Calc {
+	
+	public static float Add(num1, num2) {
+		float sum = num1 + num2;
+		return sum;
+	}
+	
+	public static float subtract(num1, num2) {
+		float diff = num1 - num2;
+		return diff;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner num1 = new Scanner(System.in);
+		Scanner num2 = new Scanner(System.in);
+	}
+
+}

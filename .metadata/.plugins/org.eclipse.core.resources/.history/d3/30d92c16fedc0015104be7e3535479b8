@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Calc {
+	
+	public static float add(float num1, float num2) {
+		float sum = num1 + num2;
+		return sum;
+	}
+	
+	public static float subtract(float num1, float num2) {
+		float diff = num1 - num2;
+		return diff;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner operation = new Scanner (System.in);
+		System.out.println("Enter the first number");
+		Scanner num1 = new Scanner(System.in);
+		System.out.println("Enter the second number");
+		Scanner num2 = new Scanner(System.in);
+		if (operation == "add") {
+			add(num1, num2);
+		}
+	}
+
+}
